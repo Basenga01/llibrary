@@ -9,7 +9,7 @@ import styles from "./index.module.css"
 
 export const Main = () => {
     return <div className={styles.Main}>
-        asefesa
+       ПРивет Медвед
         <Header/>
         <Slider/>
         <Content/>
