@@ -5,5 +5,10 @@ export const Slider =()=> {
             <button className={styles.Strelka1}></button>
             <button className={styles.Strelka2}></button>
         </div>
+        <div className={styles.Txt_cont}>
+            <div className={styles.Txt}>
+                В библиотеке находится 259 книг разных авторов и жанров
+            </div>
+        </div>
     </div>
 }

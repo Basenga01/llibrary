@@ -6,6 +6,7 @@
 .Button{
     display: flex;
     justify-content: space-between;
+    margin-top: 325px;
     width: 100%;
 }
 .Strelka1{
@@ -17,4 +18,28 @@
     width: 100px;
     height: 25px;
     background-color: red;
+}
+.Txt_cont{
+    display: flex;
+    justify-content: left;
+    width: 337px;
+    height: 183px;
+
+    background-color: rgba(209, 177, 177, 0.8);
+    opacity: 60%;
+}
+.Txt{
+    display: flex;
+    width: 348px;
+    height: 183px;
+    left: 177px;
+    top: 427px;
+    text-align: center;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    display: flex;
 }
