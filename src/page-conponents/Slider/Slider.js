@@ -1,14 +1,35 @@
 import styles from "./slider.module.css"
+import cn from "classnames";
+import {SliderBody} from "./components/SliderBody";
+import {useState} from "react";
+
 export const Slider =()=> {
-    return <div className={styles.Navigation}>
-        <div className={styles.Button}>
-            <button className={styles.Strelka1}></button>
-            <button className={styles.Strelka2}></button>
+    const [count, setCount]=useState(0)
+    console.log(count)
+
+    const clickRight=()=> {
+        if (count === 2){
+            setCount(0)
+        }
+        else{
+            setCount(prevState => prevState+1)
+        }
+    }
+    const clickLeft=()=> {
+        if (count === 0){
+            setCount(2)
+        }
+        else{
+            setCount(prevState => prevState-1)
+        }
+    }
+
+    return <div className={styles.Slider}>
+        <SliderBody props={{count}}/>
+        <div className={styles.ButtonContainer}>
+            <button onClick={clickLeft}  className={cn(styles.button, styles.buttonLeft)}>Левак</button>
+            <button onClick={clickRight} className={cn(styles.button, styles.buttonRight)}>Правак</button>
         </div>
-        <div className={styles.Txt_cont}>
-            <div className={styles.Txt}>
-                В библиотеке находится 259 книг разных авторов и жанров
-            </div>
-        </div>
+
     </div>
 }

@@ -1,3 +1,5 @@
 .Main{
-    background-color: darkmagenta;
+    max-width: 1620px;
+    background-color: lightseagreen;
+    margin: auto;
 }
