@@ -2,3 +2,8 @@ body{
     margin: 0;
     padding: 0;
 }
+.App{
+    max-width: 1620px;
+    background-color: lightseagreen;
+    margin: auto;
+}
