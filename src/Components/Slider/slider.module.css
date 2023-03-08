@@ -1,0 +1,26 @@
+.Slider{
+    position: relative;
+    width: 100%;
+    height: 700px;
+    background-color: #5fcdcd;
+}
+.ButtonContainer{
+    position: absolute;
+    top: 325px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.button{
+    width: 100px;
+    height: 25px;
+    background-color: red;
+}
+
+.buttonLeft{
+
+}
+.buttonRight{
+
+}
+

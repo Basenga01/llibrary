@@ -1,0 +1,43 @@
+.SliderBody{
+    display: flex;
+    height: 700px;
+    background-color: deepskyblue;
+    align-content: flex-end;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Slider1{
+    background-color: #5d2424;
+}
+
+.Slider2{
+    background-color: #2c702c;
+}
+
+.Slider3{
+    background-color: #2c2c6e;
+}
+.starContainer{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding-bottom: 1px;
+
+}
+.star{
+    width: 10px;
+    height: 10px;
+    margin: 5px;
+}
+.active{
+    background-color: #2fe1cc;
+}
+.text{
+    position: absolute;
+    width: 250px;
+    bottom: 75px;
+    left: 50px;
+    font-size: 24px;
+    background-color: rgba(63, 19, 19, 0.3);
+}

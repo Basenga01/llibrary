@@ -1,0 +1,17 @@
+.Header{
+    display: flex;
+    justify-content: space-between;
+}
+.Navigation{
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    text-indent: 20px;
+    background-color: rgba(102, 143, 222, 1);
+    border: 3px solid black;
+}
+.Logo{
+    width: 25px;
+    height: 25px;
+    background-color: aquamarine;
+}
