@@ -1,8 +1,8 @@
 import styles from "./SliderBody.module.css"
 import cn from "classnames";
 const text1="В библиотеке находится 259 книг разных авторов и жанров"
-const text2="В библиотеке находится 259 книг разных авторов и жанров"
-const text3="В библиотеке находится 259 книг разных авторов и жанров"
+const text2="В библиотеке находится 258 книг разных авторов и жанров"
+const text3="В библиотеке находится 257 книг разных авторов и жанров"
 
 export const SliderBody = ({props}) => {
     const text=[text1, text2, text3]
