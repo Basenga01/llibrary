@@ -5,6 +5,6 @@ export const Card=({props})=>{
     const {id, name} = props.book
     console.log(name)
     return <Link to={`${CATALOG}/${id}`}>
-        <div className={styles.Card}>{name}<img src={props.book.src}/> </div>
+        <div className={styles.Card}>{name}<img className={styles.CardBook} src={props.book.src}/> </div>
     </Link>
 }

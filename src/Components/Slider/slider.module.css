@@ -12,9 +12,8 @@
     width: 100%;
 }
 .button{
-    width: 100px;
-    height: 25px;
-    background-color: red;
+    background: transparent;
+    border: 0;
 }
 
 .buttonLeft{
