@@ -1,9 +1,13 @@
 .Card{
     display: flex;
-
-
-    width: 200px;
-    height: 300px;
+    flex-direction: column-reverse;
+    width: 285px;
+    height: 400px;
+    text-align: center;
     background-color: deepskyblue;
     border: 1px solid;
+}
+.CardBook{
+    width: 100%;
+    height: 91%;
 }

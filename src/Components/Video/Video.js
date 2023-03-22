@@ -1,5 +1,8 @@
+import styles from "./Video.module.css"
+import YouTube from "react-youtube";
 export const Video =()=> {
-    return <div>
-        Видео
+    const src = "https://youtu.be/Ixi0sUpLVRc"
+    return <div className={styles.Video}>
+    <YouTube videoId={"Ixi0sUpLVRc"}/>
     </div>
 }
