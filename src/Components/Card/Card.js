@@ -3,7 +3,6 @@ import {CATALOG} from "../../Routes/Paths";
 import {Link} from "react-router-dom";
 export const Card=({props})=>{
     const {id, name} = props.book
-    console.log(name)
     return <Link to={`${CATALOG}/${id}`}>
         <div className={styles.Card}>{name} </div>
     </Link>
