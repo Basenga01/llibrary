@@ -3,5 +3,9 @@
     display: flex;
     justify-content: center;
     text-align: center;
-
+    background-color: #3D1313;
+    padding: 20px 0;
+}
+.Footer span{
+    margin-right: 5px;
 }

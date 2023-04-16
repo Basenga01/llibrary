@@ -10,7 +10,7 @@ export const Slider =()=> {
     console.log(count)
 
     const clickRight=()=> {
-        if (count === 2){
+        if (count === 3){
             setCount(0)
         }
         else{
@@ -19,7 +19,7 @@ export const Slider =()=> {
     }
     const clickLeft=()=> {
         if (count === 0){
-            setCount(2)
+            setCount(3)
         }
         else{
             setCount(prevState => prevState-1)

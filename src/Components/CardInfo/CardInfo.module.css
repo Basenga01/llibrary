@@ -1,0 +1,15 @@
+.CardInfo{
+    display: flex;
+    flex-direction: column;
+    border: solid black 1px;
+    width: 60%;
+    height: calc(100vh - 15px - 50px);
+    margin: auto;
+}
+.CardInfoTop{
+    display: flex;
+    justify-content: center;
+}
+.CardInfoDown{
+
+}

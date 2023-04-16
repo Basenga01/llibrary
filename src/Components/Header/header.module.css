@@ -2,7 +2,8 @@
     display: flex;
     justify-content: space-between;
     height: 45px;
-    background-color: #5E3939;
+    background-color:  #3D1313;
+    padding: 10px 0;
 }
 .Navigation{
     display: flex;
@@ -10,8 +11,12 @@
     align-items: center;
     flex-direction: row;
     text-indent: 20px;
-    background-color: rgba(102, 143, 222, 1);
-    border: 3px solid black;
+    background-color:  #3D1313;
+    font-weight: 600;
+    font-size: 24px;
+}
+.Navigation div:hover{
+    color: #AF7B7B	;
 }
 .Logo{
     width: 45px;

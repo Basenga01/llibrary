@@ -1,8 +1,21 @@
+.CatalogMain{
+
+    background-color: #6b2d2d;
+}
 .Catalog {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 10px;
-    column-gap: 10px;
+    gap: 20px;
+    column-gap: 20px;
+    padding: 0 100px;
     background-color: #5E3939;
 }
+.Search{
+    width: 30%;
+}
+.SearchContainer{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    }
