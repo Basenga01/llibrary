@@ -2,8 +2,8 @@ import styles from "./slider.module.css"
 import cn from "classnames";
 import {SliderBody} from "./components/SliderBody";
 import {useState} from "react";
-import arrow1 from  "../../img/Arrow 3.png";
-import arrow2 from  "../../img/Arrow 7.png";
+import arrow1 from  "./components/img/Arrow 8.png";
+import arrow2 from  "./components/img/Arrow 9.png";
 
 export const Slider =()=> {
     const [count, setCount]=useState(0)

@@ -2,6 +2,7 @@ import {useNavigate, useParams} from "react-router-dom";
 import {createContext, useContext, useEffect, useState} from "react";
 import {CardContext} from "../../Provaider/CardProvaider/CardProvaider";
 import styles from "./CardInfo.module.css";
+import {Separate} from "../Separate/Separate";
 export const CardInfo= () => {
     const {card, setCard} = useContext(CardContext)
     let {cardId} = useParams();
@@ -11,23 +12,27 @@ export const CardInfo= () => {
         return (()=> {setCard(null)})
     },[])
 
-    return <div className={styles.CardInfo}>
+    return <><Separate/>
+        <div className={styles.CardInfo}>
 
-        <div className={styles.CardInfoTop}>
-            <div><img className={styles.CardBook} src={card.src}/></div>
-            <div>
-                <ul>
-                    <li>{card.name}</li>
-                    <li>{card.author}</li>
-                    <li>{card.genre}</li>
-                    <li>{card.str}</li>
-                </ul>
+            <div className={styles.CardInfoTop}>
+                <div><img className={styles.CardBook} src={card.src}/></div>
+                <div>
+                    <ul className={styles.Opisanie}>
+                        <li className={styles.Name}>{card.name}</li>
+                        <li className={styles.Author}>{card.author}</li>
+                        <li className={styles.Genre}>{card.genre}</li>
+                        <li className={styles.Str}>{card.str}</li>
+                    </ul>
+                </div>
             </div>
-        </div>
-        <div className={styles.CardInfoDown}>
-            1231231231312312
-        </div>
+            <div className={styles.CardInfoDown}>
+                {card.option}
+            </div>
 
-    </div>
+        </div>
+    </>
+
+
 }
 

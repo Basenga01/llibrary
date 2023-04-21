@@ -1,15 +1,38 @@
 .CardInfo{
     display: flex;
     flex-direction: column;
-    border: solid black 1px;
     width: 60%;
     height: calc(100vh - 15px - 50px);
     margin: auto;
+}
+.CardBook{
+    width: 450px;
+    height: 600px;
 }
 .CardInfoTop{
     display: flex;
     justify-content: center;
 }
 .CardInfoDown{
-
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+.Opisanie{
+    list-style-type: none;
+}
+.Name{
+    font-size: 22px;
+    font-weight: 700;
+    padding: 5px;
+}
+.Author{
+    font-size: 20px;
+    padding: 5px;
+}
+.Genre{
+    padding: 5px;
+}
+.Str{
+    padding: 5px;
 }
