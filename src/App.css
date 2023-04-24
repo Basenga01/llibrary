@@ -4,9 +4,10 @@ body{
     font-size: 20px;
     color: #c9c0c0;
     font-weight: 500;
+    background-image: url("fotor_2023-4-23_20_49_39.png");
 }
 .App{
-    max-width: 1620px;
+    max-width: 80%;
     background-color: #5E3939;
     margin: auto;
 }

@@ -1,9 +1,5 @@
 import styles from "./SliderBody.module.css"
 import cn from "classnames";
-import museum from "./img/library1.jpg"
-import library1 from "./img/library3.jpg"
-import library2 from "./img/library2.jpg"
-import library4 from "./img/library4.jpg"
 const text1="В библиотеке располагается музей-мемориал Чеченской войны и Героя Российской Федерации Геннадия Николаевича Трошева"
 const text2="В библиотеке располагается раздел с национальной литературой Кубани"
 const text3="В библиотеке постоянно появляются новые книги и бестcеллеры мировой и российской литературы"
