@@ -4,6 +4,8 @@ import {Video} from "../../Components/Video/Video";
 import {Personal} from "../../Components/Personal/Personal";
 import styles from "./Main.module.css"
 import {Separate} from "../../Components/Separate/Separate";
+import {MAIN} from "../../Routes/Paths";
+import Linktohesh from "../../Components/Linktohesh";
 
 
 export const Main = () => {
@@ -15,6 +17,7 @@ export const Main = () => {
         <Video/>
         <Separate/>
         <Personal/>
+        <Linktohesh/>
     </div>
 
 }

@@ -1,15 +1,13 @@
 import styles from ".//Personal.module.css"
 import {Separate} from "../Separate/Separate";
+import {MAIN} from "../../Routes/Paths";
 
 export const Personal = () => {
-    return <div className={styles.PersonalContainer}>
+    return <div className={styles.PersonalContainer}  id={`personal`}>
 
         <div className={styles.PersonalLeft}>
-
             <div className={styles.PersonalIMG1}></div>
-
             <Separate/>
-
             <div className={styles.PersonalTextBackground}>
                 <p className={styles.PersonalLeftTxt1}>Догадайло Нина Михайловна</p>
                 <p className={styles.PersonalLeftTxt2}>Высшее образование получила в Краснодарском государственном институте культуры. После окончания института работала в Национальной библиотеке Республики Адыгея, затем в Адыгейской республиканской специальной библиотеке для слепых, а с 2012 года, со дня открытия МБОУ СОШ № 98, с огромным удовольствием тружусь в школьной библиотеке.</p>
@@ -19,13 +17,9 @@ export const Personal = () => {
                 </p>
             </div>
         </div>
-
         <div className={styles.PersonaRight}>
-
             <div className={styles.PersonalIMG2}></div>
-
             <Separate/>
-
             <div className={styles.PersonalTextBackground}>
                 <p className={styles.PersonalRightTxt1}>Левада Светлана
                    <br/> Петровна</p>

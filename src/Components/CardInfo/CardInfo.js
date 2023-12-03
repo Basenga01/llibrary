@@ -3,6 +3,7 @@ import {createContext, useContext, useEffect, useState} from "react";
 import {CardContext} from "../../Provaider/CardProvaider/CardProvaider";
 import styles from "./CardInfo.module.css";
 import {Separate} from "../Separate/Separate";
+import {BOOKS} from "../../Consts";
 export const CardInfo= () => {
     const {card, setCard} = useContext(CardContext)
     let {cardId} = useParams();
@@ -11,12 +12,12 @@ export const CardInfo= () => {
     useEffect(()=> {
         return (()=> {setCard(null)})
     },[])
-
+    console.log(card.src)
     return <><Separate/>
         <div className={styles.CardInfo}>
 
             <div className={styles.CardInfoTop}>
-                <div><img className={styles.CardBook} src={card.src}/></div>
+                <div><img className={styles.CardBook} src={BOOKS[card.src.slice(5, card.src.indexOf("."))] || ""}/></div>
                 <div>
                     <ul className={styles.Opisanie}>
                         <li className={styles.Name}>{card.name}</li>

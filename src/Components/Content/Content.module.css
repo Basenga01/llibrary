@@ -8,3 +8,9 @@
     font-size: 24px;
     width: 50%;
 }
+@media screen and (max-width: 480px) {
+    .Content {
+        font-size: 18px;
+        width: 75%;
+    }
+}

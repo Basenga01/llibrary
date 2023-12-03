@@ -36,3 +36,15 @@
 .Str{
     padding: 5px;
 }
+@media screen  and (max-width: 480px) {
+    .CardBook{
+       width: 100%;
+        height: auto;
+    }
+    .CardInfo{
+        height: auto;
+    }
+    .CardInfoTop{
+        flex-wrap: wrap;
+    }
+}

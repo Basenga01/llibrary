@@ -18,8 +18,18 @@
 .Navigation div:hover{
     color: #AF7B7B	;
 }
-.Logo{
-    width: 45px;
-    height: 45px;
-    background-color: aquamarine;
+@media screen and (max-width: 480px) {
+    .Header {
+        height: auto;
+    }
+    .Navigation{
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+    .Navigation a{
+        padding: 15px 0;
+        width: 100%;
+        text-align: center;
+    }
 }

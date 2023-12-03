@@ -56,3 +56,8 @@
     width: 385px;
     background-color: rgba(63, 19, 19, 0.3);
 }
+@media screen and (max-width: 480px) {
+    .text {
+        width: 240px;
+    }
+}

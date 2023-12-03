@@ -69,3 +69,10 @@
     font-size: 18px;
     color: white;
 }
+@media screen and (max-width: 480px) {
+    .PersonalContainer {
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+}
